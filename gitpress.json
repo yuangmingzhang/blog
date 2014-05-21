@@ -1,0 +1,25 @@
+{
+        "docs"      : {"all": "posts"},
+        "perpage"   : 5,
+        "types"     : {
+                "\\.(md||markdown)$"   : "markdown", 
+                "\\.(js||css||json)$"  : "code",
+                "\\.html?$"            : "html",
+                ".*"                   : "text"                
+        },
+        "title"  : "mingdd",
+        "description" : "Love is blind.",
+        "comment"     : {"type": "duoshuo", "short_name": "xufei"},
+        "friends"  : [
+                {
+                        "name" : "github",
+                        "title" : "github",
+                        "url" : "http://github.com"
+                },
+                {
+                        "name" : "gitpress",
+                        "title" : "gitpress",
+                        "url" : "http://gitpress.org"
+                }
+        ] 
+}
